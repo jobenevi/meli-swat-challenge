@@ -35,8 +35,9 @@ Através de um _Python script_, que recebe o arquivo `data_input.txt` contendo o
 
 ## Pré-requisitos
 1. Utilizar `Python 3.8.5` ou superior.
-2. Libraries: `requests==2.25.1` ou superior ; `configparser==5.0.2` outras comuns do Python, como superior.
-3. Os arquivos `data_input.txt`, `credencias.cfg` e `script.py` precisar estar no mesmo diretório.
+2. Libraries: `requests==2.25.1` ou superior ; `configparser==5.0.2` e outras comuns do Python, como: `json`, `csv`, `datetime` e `multiprocessing`
+
+3. Os arquivos `data_input.txt`, `credencias.cfg` precisam estar no diretório raiz do script.
 4. É necessário configurar um arquivo seguro `credencias.cfg`. 
   
     3.1. Na sessão [credencias] é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret pode ser adquirido em https://developers.mercadolivre.com.br.
