@@ -11,14 +11,14 @@ Recorrer a todos os itens publicados pelos seguintes users:
 * MLB,244066576
 
 Considerações:
-1. Utilizar el siguiente filtro para obtener solamente los que cumplan esta condición "Envío" = "Full"
-2. Generar archivo de LOG que contengan los siguientes datos de cada ítem por cada
-user/site:
-site_id, seller_id, nickname, id del ítem, title del item, category_id (* donde está
-publicado *), name de la categoría (* no el id *), currency_symbol + price
+1. Utilizar o seguinte filtro para obter somente os que cumpram a condição "Envío" = "Full"
+2. Gerar archivo de Loque que contenha os seguintes dados de cada item por user/site:
+**_site_id, seller_id, nickname, id del ítem, title del item, category_id (*** donde está
+publicado ***), name de la categoría (*** no el id ***), currency_symbol+ price_**
+_
 EJEMPLO
 MLA, 99999, SampleNickname, MLA999999, "Sample title", MLA11111, "Herramientas", $99
-MLB, 22222, SampleNickn2, MLB22221, "Sample title 2", MLB2222, "Herramientas", R$33
+MLB, 22222, SampleNickn2, MLB22221, "Sample title 2", MLB2222, "Herramientas", R$33_
 
 
 ## Solución
