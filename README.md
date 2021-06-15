@@ -3,7 +3,7 @@
 ## meli-swat-challenge
 Exercício 1 - Scripting
 
-# Escopo
+# Escopo do Teste
 
 ## Problema
 Partindo de uma demanda de tarefas de análise, temos a necessidade de consultar e modificar informações de forma massiva. Para agilizar o processo de consulta foi construído um script que realiza a seguinte tarefa:
