@@ -35,7 +35,7 @@ Foi criado um _Python script_ que recebe um arquivo `data_input.txt` de entrada 
 (**Exemplificando:** Output_15-06-21-16_23.csv)
 
 ## Pré-requisitos
-1. Contar con `Python 3.8.5` o superior. Link de descarga: 
+1. Contar con `Python 3.8.5` o superior.
 2. É necessário configurar um arquivo seguro `credencias.cfg`. Temos uma sessão [credencias] onde é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret é adquirido em https://developers.mercadolivre.com.br.
 ### Observações
 Durante os processos de criação do script foi detectado que as APIs extraídas da documentação não necessitaríam autenticação, para fins de testes foram criados dois scripts `script_challenge_swat_master.py`(com autenticação) e `script_challenge_swat_noauth.py`(sem autenticação). 
