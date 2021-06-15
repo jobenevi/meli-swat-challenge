@@ -36,6 +36,7 @@ Através de um _Python script_, que recebe um arquivo `data_input.txt` de entrad
 ## Pré-requisitos
 1. Utilizar `Python 3.8.5` ou superior.
 2. É necessário configurar um arquivo seguro `credencias.cfg`. 
+  
   2.1. Temos uma sessão [credencias] onde é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret é adquirido em https://developers.mercadolivre.com.br.
 ### Observações
 Seguindo as documentações sugeridas pelo exercício proposto:
