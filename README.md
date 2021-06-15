@@ -32,7 +32,7 @@ MLB, 22222, SampleNickn2, MLB22221, "Sample title 2", MLB2222, "Herramientas", R
 
 Foi criado um _Python script_ que recebe um arquivo `data_input.txt` de entrada de dados de `site_id` e `seller_id`. A execução do script gera um arquivo no formato CSV, seguindo os seguintes parâmetros de nomenclatura `Output_DD-MM-AA-HH_mm.csv`.
 
-(**Exemplificando:** Output_14-06-21-20_18.csv)
+(**Exemplificando:** Output_15-06-21-16_23.csv)
 
 ## Pré-requisitos
 1. Contar con `Python 3.8.5` o superior. Link de descarga: 
