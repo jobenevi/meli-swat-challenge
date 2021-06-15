@@ -1,4 +1,4 @@
-# meli-swat
+# meli-swat-challenge
 Exercício 1 - Scripting
 
 # Challenge Técnico - SWAT
