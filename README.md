@@ -3,8 +3,8 @@ Exercício 1 - Scripting
 
 # Challenge Técnico - SWAT
 
-## Escopo
-Como parte de nossas tarefas de análise, temos a necessidade de consultar e modificar informações massivamente. Para agilizar o processo de consulta foi construído um script que realiza a seguinte tarefa:
+## Escopo do problema
+Partindo de uma demanda de tarefas de análise, temos a necessidade de consultar e modificar informações de forma massiva. Para agilizar o processo de consulta foi construído um script que realiza a seguinte tarefa:
 Recorrer a todos os itens publicados pelos seguintes users:
 * site_id, seller_id (Dados de _input_)
 * MLA,326659539
@@ -31,3 +31,12 @@ MLB, 22222, SampleNickn2, MLB22221, "Sample title 2", MLB2222, "Herramientas", R
 Foi criado um _Python script_ que recebe um arquivo `data_input.txt` de input com os dados de `site_id` e `seller_id`. A execução do script gera um arquivo no formato CSV, seguindo os seguintes parâmetros de nomenclatura `Output_DD-MM-AA-HH_mm.csv`.
 
 (**Exemplificando:** Output_14-06-21-20_18.csv)
+
+## Pré-requisitos
+Contar con `Python 3.8.5` o superior. Link de descarga: 
+É necessário configurar um arquivo seguro `credencias.cfg`. Temos uma sessão [credencias] onde é necessária uma chave de acesso `appid` e `secret`.
+Esse ID e Secret é adquirido em https://developers.mercadolivre.com.br
+Configurar el archivo brindado 'properties.ini'. Dentro de la sección [SETUP] se debe ingresar las claves para los atributos de 'client_id' y 'client_secret'.
+
+
+
