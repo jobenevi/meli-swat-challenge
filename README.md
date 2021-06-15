@@ -12,7 +12,9 @@ Recorrer a todos os itens publicados pelos seguintes users:
 
 Considerações:
 1. Utilizar o seguinte filtro para obter somente os que cumpram a condição "Envío" = "Full"
-2. Gerar archivo de Loque que contenha os seguintes dados de cada item por user/site:
+2. Gerar archivo de Loque que contenha os seguintes dados de cada item por user/site
+
+**Estrutura do relatório:**
 
 **site_id**, **seller_id**, **nickname**, **id del ítem**, **title del item**, **category_id** (_donde está
 publicado_), **name de la categoría** (_no el id_), currency_symbol+ **price**
