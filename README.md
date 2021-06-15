@@ -37,7 +37,7 @@ Através de um _Python script_, que recebe um arquivo `data_input.txt` de entrad
 1. Utilizar `Python 3.8.5` ou superior.
 2. É necessário configurar um arquivo seguro `credencias.cfg`. 
   
-    ####2.1. Na sessão [credencias] é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret pode ser adquirido em https://developers.mercadolivre.com.br.
+    #### 2.1. Na sessão [credencias] é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret pode ser adquirido em https://developers.mercadolivre.com.br.
 ### Considerações
 Seguindo as documentações sugeridas pelo exercício proposto:
 1. https://developers.mercadolivre.com.br/pt_br/itens-e-buscas
