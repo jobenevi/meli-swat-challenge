@@ -8,7 +8,7 @@ Exercício 1 - Scripting
 ## Problema
 Partindo de uma demanda de tarefas de análise, temos a necessidade de consultar e modificar informações de forma massiva. Para agilizar o processo de consulta foi construído um script que realiza a seguinte tarefa:
 Recorrer a todos os itens publicados pelos seguintes users:
-* site_id, seller_id (Dados de _input_)
+* `site_id`, `seller_id` (Dados de _input_)
 * MLA,326659539
 * MLB,244066576
 
@@ -28,7 +28,7 @@ _MLA,326659539,FERRETERIA JASPER,MLA752196932,Jaula Trampa Rata Ratón Laucha 30
 
 ## Solução
 
-Foi criado um _Python script_ que recebe um arquivo `data_input.txt` de entrada de dados de `site_id` e `seller_id`. A execução do script gera um arquivo no formato CSV, seguindo os seguintes parâmetros de nomenclatura `Output_DD-MM-AA-HH_mm.csv`.
+Através de um _Python script_, que recebe um arquivo `data_input.txt` de entrada de dados de `site_id` e `seller_id`. A execução do script gera um arquivo no formato CSV, seguindo os seguintes parâmetros de nomenclatura `Output_DD-MM-AA-HH_mm.csv`.
 
 (**Exemplificando:** Output_15-06-21-16_23.csv)
 
