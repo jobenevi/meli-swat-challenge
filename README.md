@@ -6,11 +6,11 @@ Ejercicio 1 - Scripting
 ## Demanda
 Como parte de nossas tarefas de análise, temos a necessidade de consultar e modificar informações massivamente. Para agilizar o processo de consulta foi construído um script que realiza a seguinte tarefa:
 Recorrer a todos os itens publicados pelos seguintes users:
-* site_id, seller_id
+* site_id, seller_id (Dados de _input_)
 * MLA,326659539
 * MLB,244066576
 
-Considerações:
+**Considerações:**
 1. Utilizar o seguinte filtro para obter somente os que cumpram a condição "Envío" = "Full"
 2. Gerar archivo de Loque que contenha os seguintes dados de cada item por user/site
 
@@ -26,35 +26,13 @@ _MLA, 99999, SampleNickname, MLA999999, "Sample title", MLA11111, "Herramientas"
 MLB, 22222, SampleNickn2, MLB22221, "Sample title 2", MLB2222, "Herramientas", R$33_
 
 
-## Solución
+## Solução
 
-Se creó un script Python el cual recibe un archivo input en formato CSV para listar los site_id y seller_id requeridos. El script genera un archivo con la siguiente nomenclatura "log DD MM AAAA - HH MM.csv"(Ejemplo 31 05 2021 - 05 30.csv). 
-Para mas información, el script genera (o actualiza si ya existe) el archivo "ExecutionLog.txt" en el cual se muestra la secuencia de ejecución del script desde que es iniciado hasta su finalización, indicando fecha y hora de cada registro y errores si ocurrieran dentro de la ejecución.
+Foi criado um _Python script_ que recebe um arquivo .txt de input com os dadso de site_id e seller_id. A execução do script gera um arquivo no formato CSV, seguindo os seguintes parâmetros de nomenclatura "_Output_DD-MM-AA-HH_mm.csv_" (**Exemplificando:** Output_14-06-21-20_18.csv)
+
 
 ## Prerequisitos
 
 1. Contar con Python 3.9.5 o superior. Link de descarga: [Python](https://www.python.org/downloads/)
 
 2. Configurar el archivo brindado 'properties.ini'. Dentro de la sección [SETUP] se debe ingresar las claves para los atributos de 'client_id' y 'client_secret'.
-
-## Instalación
-
-Dentro de la consola escribir el siguiente comando:
-
-```bash
-git clone https://github.com/Gaston87/ml-challenge.git
-cd ml-challenge
-pip install -r requisitos.txt
-```
-
-## Comandos Script
-
-Help:
-```bash
-py script.py -h
-```
-
-Ejecución:
-```bash
-py script.py -i input.csv
-```
