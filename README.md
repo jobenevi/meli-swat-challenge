@@ -15,6 +15,7 @@ Considerações:
 2. Gerar archivo de Loque que contenha os seguintes dados de cada item por user/site:
 **_site_id, seller_id, nickname, id del ítem, title del item, category_id (*** donde está
 publicado ***), name de la categoría (*** no el id ***), currency_symbol+ price_**
+
 _
 EJEMPLO
 MLA, 99999, SampleNickname, MLA999999, "Sample title", MLA11111, "Herramientas", $99
