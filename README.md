@@ -38,7 +38,7 @@ Através de um _Python script_, que recebe um arquivo `data_input.txt` de entrad
 2. É necessário configurar um arquivo seguro `credencias.cfg`. 
   
   2.1. Temos uma sessão [credencias] onde é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret é adquirido em https://developers.mercadolivre.com.br.
-### Observações
+### Considerações
 Seguindo as documentações sugeridas pelo exercício proposto:
 1. https://developers.mercadolivre.com.br/pt_br/itens-e-buscas
 2. https://developers.mercadolivre.com.br/pt_br/categorias-e-atributos-veiculos
