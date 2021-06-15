@@ -28,7 +28,7 @@ _MLA,326659539,FERRETERIA JASPER,MLA752196932,Jaula Trampa Rata Ratón Laucha 30
 
 ## Solução
 
-Através de um _Python script_, que recebe um arquivo `data_input.txt` de entrada de dados de `site_id` e `seller_id`. A execução do script gera um arquivo no formato CSV, seguindo os seguintes parâmetros de nomenclatura `Output_DD-MM-AA-HH_mm.csv`.
+Através de um _Python script_, que recebe um arquivo `data_input.txt` de entrada de dados de `site_id` e `seller_id`, como saída recebemos um arquivo de LOG no formato CSV, seguindo os seguintes parâmetros de nomenclatura `Output_DD-MM-AA-HH_mm.csv`.
 
 (**Exemplificando:** Output_15-06-21-16_23.csv)
 
