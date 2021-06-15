@@ -40,7 +40,12 @@ Seguindo as documentações sugeridas pelo exercício proposto:
 1. https://developers.mercadolivre.com.br/pt_br/itens-e-buscas
 2. https://developers.mercadolivre.com.br/pt_br/categorias-e-atributos-veiculos
 3. https://developers.mercadolivre.com.br/pt_br/localizacao-e-moedas
-Durante os processos de criação e teste do script foi detectado que as APIs extraídas da documentação:
-não necessitaríam autenticação, para fins de de boas práticas foram criados dois scripts `script_challenge_swat_master.py`(com autenticação) e `script_challenge_swat_noauth.py`(sem autenticação). 
+
+
+Durante os processos de criação e teste do script foi detectado que as APIs extraídas das documentações não necessitam autenticação para serem acessadas, porém para fins de de boas práticas foram criados dois scripts separados:
+
+1. Principal: `script_challenge_swat_master.py`(com autenticação)
+2. Ambiente de teste: `script_challenge_swat_noauth.py`(sem autenticação). 
+
 Por boas práticas adotaremos o script com autenticação.
 
