@@ -36,6 +36,11 @@ Através de um _Python script_, que recebe um arquivo `data_input.txt` de entrad
 1. Contar con `Python 3.8.5` o superior.
 2. É necessário configurar um arquivo seguro `credencias.cfg`. Temos uma sessão [credencias] onde é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret é adquirido em https://developers.mercadolivre.com.br.
 ### Observações
-Durante os processos de criação e teste do script foi detectado que as APIs extraídas da documentação não necessitaríam autenticação, para fins de de boas práticas foram criados dois scripts `script_challenge_swat_master.py`(com autenticação) e `script_challenge_swat_noauth.py`(sem autenticação). 
+Seguindo as documentações sugeridas pelo exercício proposto:
+1. https://developers.mercadolivre.com.br/pt_br/itens-e-buscas
+2. https://developers.mercadolivre.com.br/pt_br/categorias-e-atributos-veiculos
+3. https://developers.mercadolivre.com.br/pt_br/localizacao-e-moedas
+Durante os processos de criação e teste do script foi detectado que as APIs extraídas da documentação:
+não necessitaríam autenticação, para fins de de boas práticas foram criados dois scripts `script_challenge_swat_master.py`(com autenticação) e `script_challenge_swat_noauth.py`(sem autenticação). 
 Por boas práticas adotaremos o script com autenticação.
 
