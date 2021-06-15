@@ -24,9 +24,8 @@ publicado_), **name de la categoría** (_no el id_), currency_symbol+ **price**
 
 **Exemplo:**
 
-_MLA, 99999, SampleNickname, MLA999999, "Sample title", MLA11111, "Herramientas", $99
-MLB, 22222, SampleNickn2, MLB22221, "Sample title 2", MLB2222, "Herramientas", R$33_
-
+_MLA,326659539,FERRETERIA JASPER,MLA752196932,Jaula Trampa Rata Ratón Laucha 30x13x13cm Jasper Caballito,MLA417939,Trampas para Ratas,$960
+_
 
 ## Solução
 
