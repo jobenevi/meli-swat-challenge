@@ -33,11 +33,8 @@ Foi criado um _Python script_ que recebe um arquivo `data_input.txt` de input co
 (**Exemplificando:** Output_14-06-21-20_18.csv)
 
 ## Pré-requisitos
-Contar con `Python 3.8.5` o superior. Link de descarga: 
-É necessário configurar um arquivo seguro `credencias.cfg`. Temos uma sessão [credencias] onde é necessária uma chave de acesso `appid` e `secret`.
-
-Esse ID e Secret é adquirido em https://developers.mercadolivre.com.br
-Configurar el archivo brindado 'properties.ini'. Dentro de la sección [SETUP] se debe ingresar las claves para los atributos de 'client_id' y 'client_secret'.
+1. Contar con `Python 3.8.5` o superior. Link de descarga: 
+2. É necessário configurar um arquivo seguro `credencias.cfg`. Temos uma sessão [credencias] onde é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret é adquirido em https://developers.mercadolivre.com.br.
 
 
 
