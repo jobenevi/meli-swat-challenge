@@ -24,8 +24,7 @@ publicado_), **name de la categoría** (_no el id_), currency_symbol+ **price**
 
 **Exemplo:**
 
-_MLA,326659539,FERRETERIA JASPER,MLA752196932,Jaula Trampa Rata Ratón Laucha 30x13x13cm Jasper Caballito,MLA417939,Trampas para Ratas,$960
-_
+_MLA,326659539,FERRETERIA JASPER,MLA752196932,Jaula Trampa Rata Ratón Laucha 30x13x13cm Jasper Caballito,MLA417939,Trampas para Ratas,$960_
 
 ## Solução
 
