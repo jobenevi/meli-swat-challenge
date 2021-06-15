@@ -7,6 +7,7 @@ Exercício 1 - Scripting
 
 ## Problema
 Partindo de uma demanda de tarefas de análise, temos a necessidade de consultar e modificar informações de forma massiva. Para agilizar o processo de consulta foi construído um script que realiza a seguinte tarefa:
+
 Recorrer a todos os itens publicados pelos seguintes users:
 * `site_id`, `seller_id` (Dados de _input_)
 * MLA,326659539
