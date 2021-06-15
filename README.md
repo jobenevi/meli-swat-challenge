@@ -31,10 +31,3 @@ MLB, 22222, SampleNickn2, MLB22221, "Sample title 2", MLB2222, "Herramientas", R
 Foi criado um _Python script_ que recebe um arquivo `data_input.txt` de input com os dados de `site_id` e `seller_id`. A execução do script gera um arquivo no formato CSV, seguindo os seguintes parâmetros de nomenclatura `Output_DD-MM-AA-HH_mm.csv`.
 
 (**Exemplificando:** Output_14-06-21-20_18.csv)
-
-
-## Prerequisitos
-
-1. Contar con Python 3.9.5 o superior. Link de descarga: [Python](https://www.python.org/downloads/)
-
-2. Configurar el archivo brindado 'properties.ini'. Dentro de la sección [SETUP] se debe ingresar las claves para los atributos de 'client_id' y 'client_secret'.
