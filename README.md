@@ -28,7 +28,7 @@ MLB, 22222, SampleNickn2, MLB22221, "Sample title 2", MLB2222, "Herramientas", R
 
 ## Solução
 
-Foi criado um _Python script_ que recebe um arquivo [data_input.txt] de input com os dadso de site_id e seller_id. A execução do script gera um arquivo no formato CSV, seguindo os seguintes parâmetros de nomenclatura "_Output_DD-MM-AA-HH_mm.csv_" (**Exemplificando:** Output_14-06-21-20_18.csv)
+Foi criado um _Python script_ que recebe um arquivo 'data_input.txt' de input com os dadso de site_id e seller_id. A execução do script gera um arquivo no formato CSV, seguindo os seguintes parâmetros de nomenclatura "_Output_DD-MM-AA-HH_mm.csv_" (**Exemplificando:** Output_14-06-21-20_18.csv)
 
 
 ## Prerequisitos
