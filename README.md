@@ -42,10 +42,7 @@ Seguindo as documentações sugeridas pelo exercício proposto:
 3. https://developers.mercadolivre.com.br/pt_br/localizacao-e-moedas
 
 
-Durante os processos de criação e teste do script foi detectado que as APIs extraídas das documentações não necessitam autenticação para serem acessadas, porém para fins de de boas práticas foram criados dois scripts separados:
+Durante os processos de criação e teste do script foi detectado que as APIs extraídas das documentações acima não necessitam autenticação para acesso, porém para fins de de boas práticas foram criados dois scripts separados, onde o com autenticação é o principal.
 
 1. Principal: `script_challenge_swat_master.py`(com autenticação)
-2. Ambiente de teste: `script_challenge_swat_noauth.py`(sem autenticação). 
-
-Por boas práticas adotaremos o script com autenticação.
-
+2. Teste: `script_challenge_swat_noauth.py`(sem autenticação). 
