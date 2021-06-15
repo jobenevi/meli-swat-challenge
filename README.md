@@ -1,16 +1,16 @@
 # meli-swat
 Ejercicio 1 - Scripting
 
-# Challenge Técnico - Gestión Operativa
+# Challenge Técnico - SWAT
 
-## Problema presentado
-Se tiene la necesidad de consultar y modificar información masivamente. Para poder agilizar estas tareas necesitamos construir un script que nos permita realizar la siguiente tarea:
-Recorrer todos los ítems publicados de los siguientes users:
+## Demanda
+Como parte de nossas tarefas de análise, temos a necessidade de consultar e modificar informações massivamente. Para agilizar o processo de consulta foi construído um script que realiza a seguinte tarefa:
+Recorrer a todos os itens publicados pelos seguintes users:
 * site_id, seller_id
 * MLA,326659539
 * MLB,244066576
 
-Consideraciones:
+Considerações:
 1. Utilizar el siguiente filtro para obtener solamente los que cumplan esta condición "Envío" = "Full"
 2. Generar archivo de LOG que contengan los siguientes datos de cada ítem por cada
 user/site:
