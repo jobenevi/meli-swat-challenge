@@ -38,7 +38,7 @@ Através de um _Python script_, que recebe um arquivo `data_input.txt` de entrad
 2. Os arquivos `data_input.txt`, `credencias.cfg` e `script.py` precisar estar no mesmo diretório.
 3. É necessário configurar um arquivo seguro `credencias.cfg`. 
   
-    2.1. Na sessão [credencias] é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret pode ser adquirido em https://developers.mercadolivre.com.br.
+    3.1. Na sessão [credencias] é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret pode ser adquirido em https://developers.mercadolivre.com.br.
  
 
 ### Considerações
