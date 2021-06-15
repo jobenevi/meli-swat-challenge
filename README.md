@@ -37,4 +37,5 @@ Foi criado um _Python script_ que recebe um arquivo `data_input.txt` de input co
 2. É necessário configurar um arquivo seguro `credencias.cfg`. Temos uma sessão [credencias] onde é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret é adquirido em https://developers.mercadolivre.com.br.
 ### Observações
 Durante os processos de criação do script foi detectado que as APIs extraídas da documentação não necessitaríam autenticação, para fins de testes foram criados dois scripts `script_challenge_swat_master.py`(com autenticação) e `script_challenge_swat_noauth.py`(sem autenticação). 
+Por boas práticas adotaremos o script com autenticação.
 
