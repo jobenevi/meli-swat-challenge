@@ -3,7 +3,7 @@ Exercício 1 - Scripting
 
 # Challenge Técnico - SWAT
 
-## Demanda
+## Escopo
 Como parte de nossas tarefas de análise, temos a necessidade de consultar e modificar informações massivamente. Para agilizar o processo de consulta foi construído um script que realiza a seguinte tarefa:
 Recorrer a todos os itens publicados pelos seguintes users:
 * site_id, seller_id (Dados de _input_)
