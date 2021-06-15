@@ -15,7 +15,7 @@ Recorrer a todos os itens publicados pelos seguintes users:
 
 **Considerações:**
 1. Utilizar o seguinte filtro para obter somente os que cumpram a condição "Envío" = "Full"
-2. Gerar archivo de Loque que contenha os seguintes dados de cada item por user/site
+2. Gerar um arquivo LOG que contenha os seguintes dados de cada item por user/site
 
 **Estrutura do relatório:**
 
@@ -34,8 +34,9 @@ Através de um _Python script_, que recebe um arquivo `data_input.txt` de entrad
 (**Exemplificando:** Output_15-06-21-16_23.csv)
 
 ## Pré-requisitos
-1. Contar con `Python 3.8.5` o superior.
-2. É necessário configurar um arquivo seguro `credencias.cfg`. Temos uma sessão [credencias] onde é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret é adquirido em https://developers.mercadolivre.com.br.
+1. Utilizar `Python 3.8.5` ou superior.
+2. É necessário configurar um arquivo seguro `credencias.cfg`. 
+  2.1. Temos uma sessão [credencias] onde é necessária uma chave de acesso `appid` e `secret`. Esse ID e Secret é adquirido em https://developers.mercadolivre.com.br.
 ### Observações
 Seguindo as documentações sugeridas pelo exercício proposto:
 1. https://developers.mercadolivre.com.br/pt_br/itens-e-buscas
